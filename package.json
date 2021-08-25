@@ -1,5 +1,5 @@
 {
-  "name": "svelte-bulma-boilerplate",
+  "name": "qubits",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear",
     "build-css": "node-sass --output-style compressed --omit-source-map-url src/mainstyle.scss public/mainstyle.css",
-    "vercel-build": "yum --showduplicates list zlib && yum install libuuid-devel libmount-devel zlib && cp /lib64/{libuuid,libmount,libblkid,libz}.so.1 node_modules/canvas/build/Release/ && npm run build"
+    "vercel-build": "./setup.sh && yum install libuuid-devel libmount-devel && cp /lib64/{libuuid,libmount,libblkid}.so.1 node_modules/canvas/build/Release/ && npm run build"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
