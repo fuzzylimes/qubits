@@ -1,16 +1,29 @@
-# SBB - Svelte-Bulma-Boilerplate
-SBB is a template for quickly bootstrapping Svelte apps with Bulma. Simply press the "Use this template" button to start your next project!
+# QuBits - A no frills QR Code generator
+Simple app for generating QR Codes.
 
-## What comes with SBB?
-* Svelte
-* Bulma library
-* [svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router) - basic routing support for svelte app
-* Configured Navbar component
-* Basic route setup
-* scss file with starter imports
+Allows you to generate QR Codes for:
+* URLs
+* Text strings
+* SMS Templates
+* Email Templates
+* VCards
+* WiFi networks
 
-## Getting started
-* Click "Use this template" to start your new repo
-* Run `npm ci` to install dependencies
-* Run `npm run build-css` to compile scss
-* Start with `npm run dev`
+> VCards are kind of jank. As I learned from this project, no one seems to follow the standards. As such, I generate a v3 VCard that is mostly correct, but appears to be read by both ios and android __mostly__ fine. There's still some values that refuse to be read. I've wasted too much time on VCard's alone, can't be bothered to invest more time.
+
+## Motivation
+Wanted to do a project to learn about QR codes, and this is what came out. I know there are already many tools out there that do the same/similar things. This one aims to be nothing special, aside easy, quick, and free.
+
+## Credits
+<ul>
+    <li>
+        Favicon made by <a
+            href="https://www.flaticon.com/free-icon/qr-code_3037072"
+            title="bqlqn">bqlqn</a
+        >
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon"
+            >www.flaticon.com</a
+        >
+    </li>
+</ul>

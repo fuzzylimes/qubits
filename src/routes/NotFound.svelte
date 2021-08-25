@@ -4,9 +4,7 @@
 			<div class="container">
 				<div class="columns has-text-centered is-centered">
 					<div class="column is-9-tablet is-half-widescreen">
-						<p class="big">
-							404
-						</p>
+						<p class="big">404</p>
 						<p class="is-size-5 mt-5">
 							Nothing to see here, move along.
 						</p>
@@ -18,7 +16,7 @@
 </main>
 
 <style>
-    .big {
-        font-size: 8em;
-    }
+	.big {
+		font-size: 8em;
+	}
 </style>
